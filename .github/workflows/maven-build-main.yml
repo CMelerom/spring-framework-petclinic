@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: my-gh-runner
+    runs-on: runner-java
     strategy:
       matrix:
         java: [ '17', '21' ]

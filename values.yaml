@@ -1,0 +1,9 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: Runner
+metadata:
+  name: runner-java
+  namespace: arc
+spec:
+  repository: CMelerom/spring-framework-petclinic
+  labels:
+    - helm-gh-runner
